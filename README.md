@@ -5,6 +5,8 @@ An edtuctional repository regarding the different products and projects in the i
 
 * [Cloud](#cloud)
 * [CI/CD](#cicd)
+* [Configuration Management](#configuration-management)
+
 
 ## Cloud 
 <!-- ALL-TOPICS-LIST:START -->
@@ -131,6 +133,51 @@ An edtuctional repository regarding the different products and projects in the i
     <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
     <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
     <td align="center"><a href="#ec2"><br /><b>Java TaskType Module definition</b></a></td>
+  </tr>
+
+</table>
+</center>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-TOPICS-LIST:END -->
+
+## Configuration Management
+<!-- ALL-TOPICS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<center>
+<table>
+  <tr>
+    <td align="center"><b></b></td>
+    <td align="center"><a href="#git"><img src="images/ansible.png" width="74px;" height="74px;"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="#git"><img src="images/puppet.png" width="75px;" height="75px;"/><br /><b>Puppet</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/chef.png" width="75px;" height="75px;"/><br /><b>Chef</b></a></td>
+
+
+  </tr>
+  <tr>
+    <td align="center">OPEN SOURCE<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Agent<br> vs.<br> Agentless<b></b></td>
+    <td align="center"><a href="#"><br /><b>Agentless</b></a></td>
+    <td align="center"><a href="#"><br /><b>Master-Agent</b></a></td>
+    <td align="center"><a href="#"><br /><b>Master-Agent</b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Underlying<br>Programming Language<b></b></td>
+    <td align="center"><a href="#"><br /><b>Python</b></a></td>
+    <td align="center"><a href="#"><br /><b>Ruby</b></a></td>
+    <td align="center"><a href="#"><br /><b>Ruby</b></a></td>
+  </tr>
+  <tr>
+    <td align="center">Push vs. Pull<b></b></td>
+    <td align="center"><a href="#"><br /><b>Both supported.<br>Push is the default</b></a></td>
+    <td align="center"><a href="#"><br /><b>Both supported.<br>Pull is the default</b></a></td>
+    <td align="center"><a href="#"><br /><b>Pull</b></a></td>
   </tr>
 
 </table>
