@@ -1,9 +1,10 @@
 <p align="center"><img src="images/infraverse.png"/></p>
 
-The biggest crossover since the MCU.
+The most ambitious crossover in history since the MCU.
 An edtuctional repository regarding the different products and projects in the infrastructure world.
 
 * [Cloud](#cloud)
+* [CI/CD](#cicd)
 
 ## Cloud 
 <!-- ALL-TOPICS-LIST:START -->
@@ -73,3 +74,79 @@ An edtuctional repository regarding the different products and projects in the i
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
+
+<a name="cicd" href="#cicd"></a>
+## CI/CD 
+<!-- ALL-TOPICS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<center>
+<table>
+  <tr>
+    <td align="center"><b></b></td>
+    <td align="center"><a href="#git"><img src="images/jenkins.png" width="74px;" height="74px;"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="#git"><img src="images/gitlab.png" width="75px;" height="75px;"/><br /><b>GitLab CI</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/circleci.png" width="75px;" height="75px;"/><br /><b>CircleCI</b></a></td>
+    <td align="center"><a href="#openstack"><img src="images/bamboo.png" width="180px;" height="75px;"/><br /><b>Bamboo</b></a></td>
+
+  </tr>
+  <tr>
+    <td align="center">OPEN SOURCE<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">REST API<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Installation Options<b></b></td>
+    <td align="center"><a href="#"><br /><b>Managed service,<br>On-premise</b></a></td>
+     <td align="center"><a href="#"><br /><b>Hosted,<br>On-premise</b></a></td>
+    <td align="center"><a href="#"><br /><b>Hosted,<br>On-premise</b></a></td>
+    <td align="center"><a href="#"><br /><b>Managed service,<br>On-premise</b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Plugins<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b>Over thousand plugins</b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+     <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+     <tr>
+    <td align="center">Integrations<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Pipeline/Job/Task Format<b></b></td>
+    <td align="center"><a href="#ec2"><br /><b>Groovy,<br>Pipeline DSL</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>Java TaskType Module definition</b></a></td>
+  </tr>
+
+</table>
+</center>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-TOPICS-LIST:END -->
+
+## More Infra related projects
+
+<p align="center"><a href="https://github.com/bregman-arie/howtheydevops"><img src="images/how_they_devops.png"/></a></p>
+<p align="center"><a href="https://github.com/bregman-arie/devops-resources"><img src="images/devops_resources.png"/></a></p>
+<p align="center"><a href="https://github.com/bregman-arie/devops-exercises"><img src="images/devops_exercises.png"/></a></p>
+
+### Contribute
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+### License
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
