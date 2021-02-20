@@ -1,4 +1,4 @@
-# Infraverse
+<p align="center"><img src="images/infraverse.png"/></p>
 
 The biggest crossover since the MCU.
 An edtuctional repository regarding the different products and projects in the infrastructure world.
