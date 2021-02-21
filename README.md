@@ -149,7 +149,7 @@ An edtuctional repository regarding the different products and projects in the i
 <table>
   <tr>
     <td align="center"><b></b></td>
-    <td align="center"><a href="#git"><img src="images/ansible.png" width="74px;" height="74px;"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="#git"><img src="images/ansible.png" width="74px;" height="74px;"/><br /><b>Ansible</b></a></td>
     <td align="center"><a href="#git"><img src="images/puppet.png" width="75px;" height="75px;"/><br /><b>Puppet</b></a></td>
     <td align="center"><a href="#ansible"><img src="images/chef.png" width="75px;" height="75px;"/><br /><b>Chef</b></a></td>
 
