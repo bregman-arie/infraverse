@@ -5,6 +5,7 @@ An edtuctional repository regarding the different products and projects in the i
 
 * [Cloud](#cloud)
 * [CI/CD](#cicd)
+* [Provisioning](#provisioning)
 * [Configuration Management](#configuration-management)
 * [Dashboards](#dashboards)
 
@@ -230,6 +231,59 @@ An edtuctional repository regarding the different products and projects in the i
     <td align="center"><a href="#"><br /><b>Logs Analysis</b></a></td>
     <td align="center"><a href="#"><br /><b>Metrics Analysis</b></a></td>
     <td align="center"><a href="#"><br /><b>Pattern Analysis</b></a></td>
+  </tr>
+
+</table>
+</center>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-TOPICS-LIST:END -->
+
+## Provisioning
+
+Note: Many systems and tools can be used for provisioning (e.g. Ansible). This is focusing on those who were built mainly for this purpose.
+<!-- ALL-TOPICS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<center>
+<table>
+  <tr>
+    <td align="center"><b></b></td>
+    <td align="center"><a href="#git"><img src="images/terraform.png" width="74px;" height="74px;"/><br /><b>Terraform</b></a></td>
+    <td align="center"><a href="#git"><img src="images/pulumi.svg" width="75px;" height="75px;"/><br /><b>Pulumi</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/cloudformation.png" width="75px;" height="75px;"/><br /><b>CloudFormation</b></a></td>
+
+
+  </tr>
+  <tr>
+    <td align="center">OPEN SOURCE<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Language<b></b></td>
+    <td align="center">DSL (HCL)</td>
+    <td align="center">Python, C#, JavaScript,<br> Go and TypeScript </td>
+    <td align="center">JSON or YAML</td>
+  </tr>
+    <tr>
+    <td align="center">Cloud Agnostic<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+      <tr>
+    <td align="center">Written in<b></b></td>
+    <td align="center">Go</td>
+    <td align="center">Go, Typescript and Python</td>
+    <td align="center">?</td>
+  </tr>
+  <tr>
+    <td align="center">Main Advantage<b></b></td>
+    <td align="center">Large community and<br>many supported providers</td>
+    <td align="center">Supports multiple languages</td>
+    <td align="center">AWS services coverage<br>and rolling updates management</td>
   </tr>
 
 </table>
