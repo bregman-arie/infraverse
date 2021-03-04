@@ -6,6 +6,7 @@ An edtuctional repository regarding the different products and projects in the i
 * [Cloud](#cloud)
 * [CI/CD](#cicd)
 * [Configuration Management](#configuration-management)
+* [Dashboards](#dashboards)
 
 
 ## Cloud 
@@ -185,6 +186,58 @@ An edtuctional repository regarding the different products and projects in the i
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
+
+## Dashboards
+<!-- ALL-TOPICS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<center>
+<table>
+  <tr>
+    <td align="center"><b></b></td>
+    <td align="center"><a href="#git"><img src="images/kibana.png" width="74px;" height="74px;"/><br /><b>Kibana</b></a></td>
+    <td align="center"><a href="#git"><img src="images/grafana.png" width="75px;" height="75px;"/><br /><b>Grafana</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/reportportal.png" width="75px;" height="75px;"/><br /><b>ReportPortal</b></a></td>
+
+
+  </tr>
+  <tr>
+    <td align="center">OPEN SOURCE<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Querying<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b>Lucene and KQL</b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b>Based on the<br>data source</b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Supports multiple<br>data sources<b></b></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b>Only Elasticsearch</b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+      <tr>
+    <td align="center">Visualizations<b></b></td>
+    <td align="center"><a href="#"><br /><b>Pie charts, Line charts<br> Data tables, Markdown<br>Geo Maps, Metrics<br>Heat Map</b></a></td>
+    <td align="center"><a href="#"><br /><b>Pie charts, Line charts<br> Data tables, Markdown<br>Geo Maps, Metrics<br>Heat Map</b></a></td>
+     <td align="center"><a href="#"><br /><b>Pie charts, Line charts<br> Data tables</b></a></td>
+  </tr>
+  <tr>
+    <td align="center">Best suited for<b></b></td>
+    <td align="center"><a href="#"><br /><b>Logs Analysis</b></a></td>
+    <td align="center"><a href="#"><br /><b>Metrics Analysis</b></a></td>
+    <td align="center"><a href="#"><br /><b>Pattern Analysis</b></a></td>
+  </tr>
+
+</table>
+</center>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-TOPICS-LIST:END -->
+
 
 ## More Infra related projects
 
