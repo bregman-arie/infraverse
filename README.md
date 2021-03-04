@@ -8,6 +8,7 @@ An edtuctional repository regarding the different products and projects in the i
 * [Provisioning](#provisioning)
 * [Configuration Management](#configuration-management)
 * [Dashboards](#dashboards)
+* [Monitoring](#monitoring)
 
 
 ## Cloud 
@@ -284,6 +285,83 @@ Note: Many systems and tools can be used for provisioning (e.g. Ansible). This i
     <td align="center">Large community and<br>many supported providers</td>
     <td align="center">Supports multiple languages</td>
     <td align="center">AWS services coverage<br>and rolling updates management</td>
+  </tr>
+
+</table>
+</center>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-TOPICS-LIST:END -->
+
+## Monitoring
+
+<!-- ALL-TOPICS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<center>
+<table>
+  <tr>
+    <td align="center"><b></b></td>
+    <td align="center"><a href="#git"><img src="images/prometheus.png" width="74px;" height="74px;"/><br /><b>Prometheus</b></a></td>
+    <td align="center"><a href="#git"><img src="images/graphite.png" width="75px;" height="75px;"/><br /><b>Graphite</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/nagios.png" width="75px;" height="75px;"/><br /><b>Nagios</b></a></td>
+
+
+  </tr>
+  </tr>
+    <tr>
+    <td align="center">Main Purpose<b></b></td>
+    <td align="center">Time series DB and monitoring system</td>
+    <td align="center">Time Series DB and Graph rendering of the data</td>
+    <td align="center">Monitoring system focused specifically on servers and network</td>
+  </tr>
+  <tr>
+    <td align="center">OPEN SOURCE<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+    <tr>
+    <td align="center">Written in<b></b></td>
+    <td align="center">Go</td>
+    <td align="center">Python</td>
+    <td align="center">C</td>
+  </tr>
+    <tr>
+    <td align="center">API<b></b></td>
+    <td align="center">RESTful HTTP and JSON<b></b></td>
+    <td align="center">HTTP API Sockets</td>
+    <td align="center">RESTful HTTP via Addon installation</td>
+  </tr>
+      <tr>
+    <td align="center">Written in<b></b></td>
+    <td align="center">Go</td>
+    <td align="center">Go, Typescript and Python</td>
+    <td align="center">?</td>
+  </tr>
+  <tr>
+    <td align="center">Data Gathering<b></b></td>
+    <td align="center">Pull (Exporters)</td>
+    <td align="center">Push</td>
+    <td align="center">Pull (Agents)</td>
+  </tr>
+  <tr>
+    <td align="center">Alerts<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+  <tr>
+    <td align="center">Queries<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+  </tr>
+  <tr>
+    <td align="center">Visualizations<b></b></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b>Users mainly use Grafana for dashboards</b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
   </tr>
 
 </table>
