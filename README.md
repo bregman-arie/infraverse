@@ -1,10 +1,13 @@
 <p align="center"><img src="images/infraverse.png"/></p>
 
 The most ambitious crossover in history since the MCU.
-An edtuctional repository regarding the different products and projects in the infrastructure world.
+An educational repository regarding the different platforms and projects in the infrastructure world.
 
 * [Cloud](#cloud)
+  * [Services](#services)
 * [CI/CD](#cicd)
+  * [Platforms](#cicdplatforms)
+  * [Configuration](#cicdconfiguration)
 * [Provisioning](#provisioning)
 * [Configuration Management](#configuration-management)
 * [Dashboards](#dashboards)
@@ -12,6 +15,8 @@ An edtuctional repository regarding the different products and projects in the i
 
 
 ## Cloud 
+
+### Services
 <!-- ALL-TOPICS-LIST:START -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -82,6 +87,10 @@ An edtuctional repository regarding the different products and projects in the i
 
 <a name="cicd" href="#cicd"></a>
 ## CI/CD 
+
+<a name="cicdplatforms"></a>
+
+### CI/CD - Platforms
 <!-- ALL-TOPICS-LIST:START -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -136,6 +145,36 @@ An edtuctional repository regarding the different products and projects in the i
     <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
     <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
     <td align="center"><a href="#ec2"><br /><b>Java TaskType Module definition</b></a></td>
+  </tr>
+
+</table>
+</center>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-TOPICS-LIST:END -->
+
+<a name="cicdconfiguration"></a>
+
+### CI/CD - Configuration
+<!-- ALL-TOPICS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<center>
+<table>
+  <tr>
+    <td align="center"><b></b></td>
+    <td align="center"><a href="#git"><img src="images/jenkins.png" width="74px;" height="74px;"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="#git"><img src="images/gitlab.png" width="75px;" height="75px;"/><br /><b>GitLab CI</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/circleci.png" width="75px;" height="75px;"/><br /><b>CircleCI</b></a></td>
+    <td align="center"><a href="#openstack"><img src="images/bamboo.png" width="180px;" height="75px;"/><br /><b>Bamboo</b></a></td>
+
+  </tr>
+  <tr>
+    <td align="center">Set Node/Worker/Runner<b></b></td>
+    <td align="center"><a href="cicd/jenkins/node.md">Slave<br /><b></b></a></td>
+    <td align="center"><a href="cicd/gitlab/node.md">Runner<br /><b></b></a></td>
+    <td align="center"><a href="cicd/circleci/node.md">Runner<br /><b></b></a></td>
+    <td align="center"><a href="cicd/bamboo/node.md">Agent<br /><b></b></a></td>
   </tr>
 
 </table>
