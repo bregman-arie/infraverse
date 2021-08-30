@@ -3,15 +3,20 @@
 The most ambitious crossover in history since the MCU.
 An educational repository regarding the different platforms and projects in the infrastructure world.
 
-* [Cloud](#cloud)
-  * [Services](#services)
-* [CI/CD](#cicd)
-  * [Platforms](#cicdplatforms)
-  * [Configuration](#cicdconfiguration)
-* [Provisioning](#provisioning)
-* [Configuration Management](#configuration-management)
-* [Dashboards](#dashboards)
-* [Monitoring](#monitoring)
+Disclaimer: the project in some parts is opininated
+
+- [Cloud](#cloud)
+  - [Services](#services)
+- [CI/CD](#cicd)
+  - [CI/CD - Platforms](#cicd---platforms)
+  - [CI/CD - Configuration](#cicd---configuration)
+- [Configuration Management](#configuration-management)
+- [Dashboards](#dashboards)
+- [Provisioning](#provisioning)
+- [Monitoring](#monitoring)
+- [More Infra related projects](#more-infra-related-projects)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 
 ## Cloud 
@@ -28,6 +33,7 @@ An educational repository regarding the different platforms and projects in the 
     <td align="center"><a href="#git"><img src="images/azure.png" width="80px;" height="75px;"/><br /><b>Azure</b></a></td>
     <td align="center"><a href="#ansible"><img src="images/googlecloud.png" width="75px;" height="75px;"/><br /><b>GCP</b></a></td>
     <td align="center"><a href="#openstack"><img src="images/openstack.png" width="80x;" height="75px;"/><br /><b>OpenStack</b></a></td>
+    <td align="center"><b>Open Source Alternatives or Solutions</b></a></td>
 
   </tr>
   <tr>
@@ -36,6 +42,7 @@ An educational repository regarding the different platforms and projects in the 
     <td align="center"><a href="#virtual-machines"><img src="images/azure/virtual_machine.svg" width="75px;" height="75px;"/><br /><b>Virtual Machine</b></a></td>
     <td align="center"><a href="#compute-engine"><img src="images/gcp_compute_engine.png" width="120px;" height="75px;"/><br /><b>Compute Engine</b></a></td>
     <td align="center"><a href="#nova"><img src="images/openstack_nova.png" width="75px;" height="75px;"/><br /><b>Nova</b></a></td>
+    <td align="center"><a href="#ovirt"><img src="images/ovirt.png" width="75px;" height="75px;"/><br /><b>oVirt</b></a></td>
   </tr>
     <tr>
     <td align="center">Network<b></b></td>
@@ -78,6 +85,15 @@ An educational repository regarding the different platforms and projects in the 
     <td align="center"><a href="#virtual-machines"><img src="images/azure/load_balancer.png" width="150px;" height="75px;"/><br /><b>Load Balancer</b></a></td>
     <td align="center"><a href="#compute-engine"><img src="images/gcp/load_balancing.png" width="90;" height="75px;"/><br /><b>Load Balancing</b></a></td>
     <td align="center"><a href="#neutron"><img src="images/openstack/octavia.png" width="75px;" height="75px;"/><br /><b>Octavia</b></a></td>
+    <td align="center"><br /><b>Traefik<br>NGINX<br>HAProxy<br>Seesaw</b></a></td>
+  </tr>
+  <tr>
+    <td align="center">Event/Data Streaming<b></b></td>
+    <td align="center"><a href="#kinesis"><img src="images/aws/kinesis.png" width="80px;" height="75px;"/><br /><b>Kinesis</b></a></td>
+    <td align="center"><a href="#stream_analytics"><img src="images/azure/stream_analytics.png" width="80px;" height="50px;"/><br /><b>Stream Analytics</b></a></td>
+    <td align="center"><a href="#pub_sub"><img src="images/gcp/pub_sub.svg" width="80px;" height="50px;"/><br /><b>Pub/Sub</b></a></td>
+    <td align="center"><a><img src="images/sad.png" width="64px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a><img src="images/kafka.png" width="64px;" height="64px;"/><br /><b>Kafka</b></a></td>
   </tr>
 </table>
 </center>
@@ -98,10 +114,12 @@ An educational repository regarding the different platforms and projects in the 
 <table>
   <tr>
     <td align="center"><b></b></td>
-    <td align="center"><a href="#git"><img src="images/jenkins.png" width="74px;" height="74px;"/><br /><b>Jenkins</b></a></td>
-    <td align="center"><a href="#git"><img src="images/gitlab.png" width="75px;" height="75px;"/><br /><b>GitLab CI</b></a></td>
-    <td align="center"><a href="#ansible"><img src="images/circleci.png" width="75px;" height="75px;"/><br /><b>CircleCI</b></a></td>
-    <td align="center"><a href="#openstack"><img src="images/bamboo.png" width="180px;" height="75px;"/><br /><b>Bamboo</b></a></td>
+    <td align="center"><a href="#git"><img src="images/jenkins.png" width="54px;" height="64px;"/><br /><b>Jenkins</b></a></td>
+    <td align="center"><a href="#git"><img src="images/gitlab.png" width="55px;" height="55px;"/><br /><b>GitLab CI</b></a></td>
+    <td align="center"><a href="#ansible"><img src="images/circleci.png" width="55px;" height="55px;"/><br /><b>CircleCI</b></a></td>
+    <td align="center"><a href="#bamboo"><img src="images/bamboo.png" width="202px;" height="55px;"/><br /><b>Bamboo</b></a></td>
+     <td align="center"><a href="#oc_pipelines"><img src="images/openshift_pipelines.png" width="64;" height="64px;"/><br /><b>OpenShift Pipelines</b></a></td>
+    <td align="center"><a href="#teamcity"><img src="images/team_city.png" width="180px;" height="75px;"/><br /><b>TeamCity</b></a></td>
 
   </tr>
   <tr>
@@ -110,20 +128,17 @@ An educational repository regarding the different platforms and projects in the 
     <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
     <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
     <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+     <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+     <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
   </tr>
     <tr>
-    <td align="center">REST API<b></b></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-  </tr>
-    <tr>
-    <td align="center">Installation Options<b></b></td>
+    <td align="center">Deployment Options<b></b></td>
     <td align="center"><a href="#"><br /><b>Managed service,<br>On-premise</b></a></td>
      <td align="center"><a href="#"><br /><b>Hosted,<br>On-premise</b></a></td>
     <td align="center"><a href="#"><br /><b>Hosted,<br>On-premise</b></a></td>
     <td align="center"><a href="#"><br /><b>Managed service,<br>On-premise</b></a></td>
+    <td align="center"><a href="#"><br /><b>Depends on how OpenShift was deployed</b></a></td>
+    <td align="center"><a href="#"><br /><b>Managed Service, On-Premise</b></a></td>
   </tr>
     <tr>
     <td align="center">Plugins<b></b></td>
@@ -131,12 +146,7 @@ An educational repository regarding the different platforms and projects in the 
     <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
      <td align="center"><a href="#"><img src="images/no.png" width="50px;" height="64px;"/><br /><b></b></a></td>
     <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-  </tr>
-     <tr>
-    <td align="center">Integrations<b></b></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
-    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
+    <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b>Tekton Hub</b></a></td>
     <td align="center"><a href="#"><img src="images/yes.png" width="50px;" height="64px;"/><br /><b></b></a></td>
   </tr>
     <tr>
@@ -145,6 +155,18 @@ An educational repository regarding the different platforms and projects in the 
     <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
     <td align="center"><a href="#ec2"><br /><b>YAML</b></a></td>
     <td align="center"><a href="#ec2"><br /><b>Java TaskType Module definition</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>Kubernetes YAMLs</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>Kotlin DSL</b></a></td>
+  </tr>
+  </tr>
+    <tr>
+    <td align="center">Best Use Case (imho)<b></b></td>
+    <td align="center"><a href="#ec2"><br /><b>Total Freedom (+ You are not afraid of using Groovy)</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>When your code is already in Gitlab</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>When you just want out-of-the-box working CI/CD</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>No idea</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>You don't want to maintain a CI/CD server and your CI/CD is mainly containers based</b></a></td>
+    <td align="center"><a href="#ec2"><br /><b>You want versatile CI/CD but don't care about open source</b></a></td>
   </tr>
 
 </table>
